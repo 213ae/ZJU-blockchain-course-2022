@@ -1,0 +1,29 @@
+.header {
+    height: 40px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+}
+.header-info {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.header-button {
+    float: right;
+    height: 40px;
+    width: 70px;
+}
+.header-button {
+    float: right;
+    background-color: #5FBEC9;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    float: right;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #3FAAB6;
+}

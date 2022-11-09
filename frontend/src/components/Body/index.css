@@ -1,0 +1,58 @@
+.body {
+    padding: 0px 30px;
+}
+
+.menu li {
+    height: 60px;
+    line-height: 60px;
+}
+
+.menu li button {
+    height: 40px;
+    width: 140px;
+}
+
+.proposal-form input[type=text],
+.proposal-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.proposal-form textarea {
+    height: 200px
+}
+
+.proposal-form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.proposal-form div {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.proposal-form div:hover {
+    background-color: #45a049;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.readme {
+    float: right;
+    margin-top: 30px;
+    width: 470px;
+    line-height: 30px;
+}
